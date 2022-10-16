@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot-JSP/1.iml" filepath="$PROJECT_DIR$/Spring-Boot-JSP/1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Private Software.iml" filepath="$PROJECT_DIR$/.idea/Private Software.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bba-backoffice-api/bba-mobile-api.iml" filepath="$PROJECT_DIR$/../bba-backoffice-api/bba-mobile-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-security-jdbc-authentication/boot-form-handling.iml" filepath="$PROJECT_DIR$/boot-security-jdbc-authentication/boot-form-handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsp-servlet-jdbc/new-jdbc-12-month-2018.iml" filepath="$PROJECT_DIR$/jsp-servlet-jdbc/new-jdbc-12-month-2018.iml" />
+    </modules>
+  </component>
+</project>

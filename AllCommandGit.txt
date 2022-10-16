@@ -1,0 +1,61 @@
+GIt
+set up --global: create username and email for repo
++ git config --global user.name "haitruong"
++ git config --global user.email "haitruong.dev@gmail.com"
+
+how to create local repo:
++ git init (at anywhere)
+	
+after creating local repo:
++ git add /file name/ (create any file)
++ git add . (all)
++ git commit -m"messagge" (all)
++ + git commit -m"messagge" /path of file nam/
+
+check all commit:
+	+ git log --oneline
+	+ git log (detail more)
+	+ git log --oneline --graph
+
+after deleting any file:
+  'd like to restore any file before
+	+ git restore /file name/ (restore deleted any file)
+	+ git restore . (all)
+
+Compare 2 files:
++ git diff /ma ID commit 1/ /ma ID commit 2/
++ git diff /ma ID commit 1/ /ma ID commit 2/ --stat
+
+'d like to rollback any commit before:
++ git checkout /ma ID commit/ -- . (all) 
+
+After rollbacking commit before, all files are staged status:
+ 'd like to restore files to unstage:
+ + git restore --staged about.txt (special file)
+
+' like to commit code into last commit:
++ git commit --amend -m "message"
+
+Ater commit to remote repo, 'd like to reset the last commit:
+	+ git reset --hard HEAD~1 remove commit in the history
+	+ git reset --soft HEAD~1 remove commit in the history 
+	but that files still exsit in staged status to prepare to commit code
+
+'d like to change all files from staged stt to unstage:
+	+ git reset -- . (all)
+
+'d like to new branch:
+	+ git branch /new branch/ after new branch, needing to switch branch 
+	+ git checkout -b /new branch/ new branch and then auto checkout to new branch 
+
+'d like to switch other branch
+	+ git switch /branch/ 
+	+ git checkout /branch/
+
+'d like to merge code from this branch to that branch
+	+ git merge /branch what you wanna merge/ 
+	+ Ex: u stand master and wanna merge hotfix branch into master -> git merge hotfix
+		+ conflit: git mergetool (show all conflited files to fix)
+		
+'d like to revert all files after rebase successfully 		
+git reset --hard ORIG_HEAD	

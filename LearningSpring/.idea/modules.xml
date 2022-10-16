@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LearningSpring.iml" filepath="$PROJECT_DIR$/.idea/LearningSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringbootPwdEncryptionUsingJasypt/SpringbootPwdEncryptionUsingJasypt.iml" filepath="$PROJECT_DIR$/SpringbootPwdEncryptionUsingJasypt/SpringbootPwdEncryptionUsingJasypt.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Important_Note/Private Software/demo/demo.iml" filepath="$USER_HOME$/Desktop/Important_Note/Private Software/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-pdf-generator/pdfgenerator.iml" filepath="$PROJECT_DIR$/spring-boot-pdf-generator/pdfgenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-ssl/spring-boot-ssl.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-ssl/spring-boot-ssl.iml" />
+    </modules>
+  </component>
+</project>
