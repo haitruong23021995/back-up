@@ -1,0 +1,122 @@
+https://docs.google.com/spreadsheets/d/16b3xuwg-znAFcaVbXtJHd78xGmuZyfYgyFmuJjBHX2s/edit#gid=1029136203
+
+Integer vs int in java //TODO
+Long vs long in java //TODO
+Checked Exception vs Unchecked Exception and Why use custom exceptions:
++ https://www.baeldung.com/java-checked-unchecked-exceptions
++ https://stackify.com/java-custom-exceptions/
+Collection vs Collections //TODO
+DJ //TODO
+Spring JPA //TODO
+Why use Spring JPA:
++ Old System :
+- systax SQL Server is other PostgreSQL. so, manadatory must change code in Spring JDBC
+- not dependent vao database
++ postgresql relationships:
+https://hasura.io/learn/database/postgresql/core-concepts/6-postgresql-relationships/
++ Spring security
+* https://techmaster.vn/posts/36295/spring-security-ban-sau-ve-authentication-va-authorization-p1
+* https://techmaster.vn/posts/36586/spring-security-authorization
+* https://www.appsdeveloperblog.com/postauthorize-security-annotation-example/
+* JWT(access token + refresh token) : https://www.youtube.com/watch?v=VVn9OG9nfH0
+* Permission
+https://quick-adviser.com/how-do-you-implement-remember-me-in-spring-security/
+code first db first
+RSA encode decode
+base64
+restful API Stateless session
+bat goi tin o giua khi chuyen tien
+throws vs throw new
+STATELESS trong spring
+GET vs POST: https://stackoverflow.com/questions/3477333/what-is-the-difference-between-post-and-get
+JsessionID cua cookie in browser
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+csrf
+RBAC
+logout cookie:
++ https://www.tutorialspoint.com/spring_security/spring_security_form_login_remember_me_and_logout.htm
++ set timeout: server.servlet.session.cookie.max-age
+Spring Security Session:
+* https://www.baeldung.com/spring-security-session
+* https://viblo.asia/p/spring-security-cross-site-request-forgery-csrf-vyDZOyjG5wj
+GetAttribute vs GetParameter :
+* https://www.edureka.co/community/8153/what-difference-between-getattribute-and-getparameter-java#:~:text=getAttribute()%20%2D,a%20request%20to%20another%20resource
+SQL and ANGULAR and ENGLISH and restful API JSON
+excel libraries http://jxls.sourceforge.net/reference/xls_area.html
+
+etc et-se-do-ro
+optime database when search nhieu
+compare between forloop normal with stream 
+:: in stream java 8
+RabbitMQ Server: https://helpex.vn/article/huong-dan-su-dung-spring-boot-rabbitmq-thu-lai-va-xu-ly-loi-60908e47f36843b7fcae9d07
+why use Mockito Unit Test
++ https://hocspringboot.net/2020/10/27/mockito-trong-spring-boot-la-gi/
+why use ResponseEntity:
++ https://stackoverflow.com/questions/26549379/when-use-responseentityt-and-restcontroller-for-spring-restful-applications
+why use feignClient NOT_OK https://www.baeldung.com/spring-cloud-openfeign#:~:text=Feign%20makes%20writing%20web%20service,as%20used%20in%20Spring%20Web.
+What is POJOs vs Java Bean :
++ https://www.geeksforgeeks.org/pojo-vs-java-beans/#:~:text=POJO%20stands%20for%20Plain%20Old,and%20not%20requiring%20any%20classpath.
+Why implemente Serializable:
++ https://stackjava.com/java/java-serializable-la-gi-serialization-va-deserialization-trong-java.html
++ https://mkyong.com/java-best-practices/understand-the-serialversionuid/
+why use builer:
++ https://www.baeldung.com/lombok-builder NOT_OK
+why use autowired vs resource
+okhttp3 vs resttemplate:
++ get free api https://rapidapi.com/slotixsro-slotixsro-default/api/covid-19-tracking/
++ https://www.baeldung.com/guide-to-okhttp
++ https://www.baeldung.com/spring-webclient-resttemplate#:~:text=RestTemplate%20uses%20Java%20Servlet%20API,RestTemplate%20will%20still%20be%20used.
++ okhttp3 has sync and async. resttemplate has sync
+StringBuffer vs StringBuilder *********************
+Json vs gson
+Spring JPA
+Boolean vs boolean
+why use java stream
+exception *****************************************
+https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring
+unit test cons injection vs autowired
+https://www.geeksforgeeks.org/reflection-in-java/
+String Pool in Head (Stack) https://viblo.asia/p/string-pool-la-gi-4dbZNL3L5YM
+convert date time to local datetime create libraries
+Imuratable all final variable
+TreeMap auto sorted Map natural sorting
+java reflection for autowired OOP vs constructor 
+
+@Transional (all method in it)
+use Char when huong auth password
+sequence SQL scan default
+contraint SQL validate(check null, check unique, etc ...)
+index scan
+execution plan
+explain analyze
+cluter index
+
+Patch method update chi tiet nho
+Put method update nhieu chi tiet
+
+multi thread in spring boot
+java reflection:
+* https://www.javacodegeeks.com/2019/02/spring-field-dependency-injection-example.html#:~:text=Field%20Based%20Dependency%20Injection,if%20the%20field%20is%20private.
+immutable class
+@Primary, @Qualifier
+singleton beans
+Inversion of Control
+cac spring jpa ko lm dc:
+and Or ngang cap
+id tang name giam theo sorted
+Group By
+
+JPSL
+madatory join table relationship
+contraint validate
+
+use key rabbitMQ
+electic search
+
+JWT
+jwt.io
+
+
+middleware spring security (addFilterBefore)
+
+index vao cot de query cho nhanh hon

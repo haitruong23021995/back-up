@@ -1,0 +1,10 @@
+cardian ao len monmg
+trainers = sneakers
+sock vớ
+mittens găn tay
+trousers = pants = quần tây
+put on <> take off mac vao - coi ra
+get dressed <> get undressed
+carry mang di not dress
+
+wallet / purse

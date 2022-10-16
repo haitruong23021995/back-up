@@ -1,0 +1,29 @@
+female: aunt, daughter, granddaughter,grandmother, mother, niece, sister, wife
+male: brother, father,grandfather, grandson, husband, nephew, son,uncle
+f or m : child/children, cousin
+grandchildren, grandparent, parent
+
+nephew : chau trai of uncle and aunt
+niece : chau gai of uncle and aunt
+
+grandson : chau trai of ong ba
+granddaughter : chau gai of ong ba
+grand = 2 generations
+
+'s == of
+example:
+husband of my cousin
+my cousin's husband
+
+my parents' friends ko can use 's
+
+1.daughter
+2.nephew
+3.aunt
+4.sister-in-law
+5. cousin
+6. husband
+7. grandmother
+8. uncle
+9. aunt
+10. family member

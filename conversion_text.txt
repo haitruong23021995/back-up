@@ -1,0 +1,248 @@
+---------------------------------- habit-3
+Lisa is thirty-two years old and lives in manhattan.
+From monday to friday, she works at a bookstore in New York.
+Sometimes she stays at work until 10:30 at night.
+But Lisa doesn't relax on weekends.
+On weekends, she has another job.
+She is a singer.
+On saturday afternoons, she practices with her band.
+And on saturday and sunday nights, she goes to the nightclubs and sings.
+She has no free time but she loves her life. 
+
+Lisa is thirty-two years old and lives in manhattan<break time="3s"/>.
+From Monday to Friday, she works at a bookstore in New York<break time="3s"/>.
+Sometimes she stays at work until 10:30 at night<break time="3s"/>.
+But Lisa doesn't relax on weekends<break time="3s"/>.
+On weekends, she has another job<break time="3s"/>.
+She is a singer.
+On Saturday afternoons, she practices with her band<break time="3s"/>.
+And on saturday and sunday nights, she goes to the nightclubs and sings<break time="3s"/>.
+She has no free time but she loves her life. 
+
+Lisa is thirty-two years old and lives in manhattan.
+Lisa is thirty-two years old and lives in manhattan.
+Lisa is thirty-two years old and lives in manhattan.
+Lisa is thirty-two years old and lives in manhattan.
+Lisa is thirty-two years old and lives in manhattan.
+
+From monday to friday, she works at a bookstore in New York.
+From monday to friday, she works at a bookstore in New York.
+From monday to friday, she works at a bookstore in New York.
+From monday to friday, she works at a bookstore in New York.
+From monday to friday, she works at a bookstore in New York.
+
+Sometimes she stays at work until 10:30 at night.
+Sometimes she stays at work until 10:30 at night.
+Sometimes she stays at work until 10:30 at night.
+Sometimes she stays at work until 10:30 at night.
+Sometimes she stays at work until 10:30 at night.
+
+On weekends, she has another job
+On weekends, she has another job
+On weekends, she has another job
+On weekends, she has another job
+On weekends, she has another job
+
+She is a singer.
+She is a singer.
+She is a singer.
+She is a singer.
+She is a singer.
+
+On saturday afternoons, she practices with her band.
+On saturday afternoons, she practices with her band.
+On saturday afternoons, she practices with her band.
+On saturday afternoons, she practices with her band.
+On saturday afternoons, she practices with her band.
+
+And on saturday and sunday nights, she goes to the nightclubs and sings.
+And on saturday and sunday nights, she goes to the nightclubs and sings.
+And on saturday and sunday nights, she goes to the nightclubs and sings.
+And on saturday and sunday nights, she goes to the nightclubs and sings.
+And on saturday and sunday nights, she goes to the nightclubs and sings.
+
+She has no free time but she loves her life. 
+She has no free time but she loves her life. 
+She has no free time but she loves her life. 
+She has no free time but she loves her life. 
+She has no free time but she loves her life. 
+
+---------------------------------- habit-4
+
+I come from a small town in Minnessota.
+But I live in Holywood now and it's very different.
+In my hometown, people is very friendly.
+They walk down the street and they speak to you.
+They say: "Hi there. How are u?".
+Here in Holywood,people don't walk.
+They drive everywhere.
+I live in big house on Santa Monica.
+And sometimes I don't see anyone all day
+
+I come from a small town in Minnessota<break time="3s"/>.
+But I live in Holywood now and it's very different<break time="3s"/>.
+In my hometown, people is very friendly<break time="3s"/>.
+They walk down the street and they speak to you<break time="3s"/>.
+They say: "Hi there. How are u?"<break time="3s"/>.
+Here in Holywood,people don't walk<break time="3s"/>.
+They drive everywhere.
+I live in big house on Santa Monica<break time="3s"/>.
+And sometimes I don't see anyone all day<break time="3s"/>.
+---------------------------------- habit-5
+Pamela is a doctor.
+She's Canadian but now she lives in a small town near Nairobi,Kenya, in East Africa.
+She isn't an ordinary doctor.
+She's a flying doctor.
+Everyday from 8am to 10am, she speaks to people on her radio.
+Then she flies to help them.
+She works 16 hours a day nonstop but she loves her job.
+She isn't married.
+She has no free time.
+
+Pamela is a doctor<break time="3s"/>.
+She's Canadian but now she lives in a small town near Kenya, in East Africa<break time="3s"/>.
+She isn't an ordinary doctor<break time="3s"/>.
+She's a flying doctor<break time="3s"/>.
+Everyday from 8am to 10am, she speaks to people on her radio<break time="3s"/>.
+Then she flies to help them<break time="3s"/>.
+She works 16 hours a day nonstop but she loves her job<break time="3s"/>.
+She isn't married<break time="3s"/>.
+She has no free time<break time="3s"/>.
+---------------------------------- habit-6
+Istvan is music professor.
+He comes from Budapest, Hungary.
+But now he lives in United State.
+He works 4 days a week at the university of Texas, Austin.
+He speaks 3 languages: Hungarian, English, German.
+He's married to an American and has a daughter.
+He likes playing tennis in his free time.
+
+Istvan is music professor<break time="3s"/>.
+He comes from Budapest, Hungary<break time="3s"/>.
+But now he lives in United State<break time="3s"/>.
+He works 4 days a week at the university of Texas, Austin<break time="3s"/>.
+He speaks 3 languages: Hungarian, English, German<break time="3s"/>.
+He's married to an American and has a daughter<break time="3s"/>.
+He likes playing tennis in his free time<break time="3s"/>.
+---------------------------------- habit-7
+I do the same things every day<break time="3s"/>.
+I wake up at 7.
+But I stay in bed until 7:15.
+Then I get up and have a shower.
+That really wakes me up.
+I get dressed.
+Then I have breakfast.
+some toast and a cup of coffee.
+I leave the house 8:30.
+And walk to the bus stop.
+I go to work by bus.
+I start work at about 9.
+And I finish work at 5 or 6.
+In the evening, I have dinner and watch television or play on the computer.
+I'm usually in bed 7.
+
+I do the same things every day<break time="2s"/>
+I wake up at 7<break time="2s"/>
+<prosody rate="75%">But I stay in bed until 7:15<break time="3s"/></prosody>
+Then I get up and have a shower<break time="3s"/>
+That really wakes me up<break time="3s"/>
+I get dressed<break time="2s"/>
+<prosody rate="75%">Then I have breakfast, some toast and a cup of coffee</prosody><break time="3s"/>
+I leave the house 8:30<break time="3s"/>
+And walk to the bus stop<break time="2s"/>
+I go to work by bus<break time="2s"/>
+I start work at about 9<break time="3s"/>
+And I finish work at 5 or 6<break time="3s"/>
+In the evening, I have dinner and watch television or play on the computer<break time="3s"/>
+I'm usually in bed 7
+
+---------------------------------- habit-9
+Mike is stading at the top of the stairs.
+He's reading something.
+Then he falls down the stairs.
+His leg hurts a lot.
+He tells his wife Judy that his leg is killing him.
+Judy gets ice for him and then she takes him to the hospitol.
+The doctor says that Mike's leg is broken.
+Mike isn't happy because he has to stay put.
+He can't go to work for a few days.
+
+<prosody rate="75%">Mike is stading at the top of the stairs.<break time="3s"/></prosody>
+He's reading something.<break time="2s"/>
+<prosody rate="75%">Then he falls down the stairs.<break time="3s"/></prosody>
+His leg hurts a lot.<break time="3s"/>
+<prosody rate="75%">He tells his wife Judy that his leg is killing him.<break time="3s"/></prosody>
+<prosody rate="75%">Judy gets ice for him and then she takes him to the hospitol.<break time="3s"/></prosody>
+The doctor says that Mike's leg is broken.<break time="3s"/>
+Mike isn't happy because he has to stay put.<break time="3s"/>
+He can't go to work for a few days.
+
+---------------------------------- habit-10
+A woman is comming home late from work.
+Because she missed her train.
+She has a cell phone.
+So she calls her husband and tells him she is late
+He will pick up the kids and have a chicken dinner ready when she gets home 
+The wife thinks her husband is lucky because he works at home.
+And he can take snaps when he gets sleepy.
+He says that he does the laundry /'lɔ:ndri/ and the dishes because he is home.
+---------------------------------- habit-11
+I am a carpenter./'kɑ:pəntə[r]/
+I work 8 hours a day from monday to friday.
+I get up around 6 am.
+I work from 7am until 3pm.
+I get home pretty early, about 4pm.
+I go to bed at 10.
+----------------------------------- habit-12
+Well,I am accountant. /ə'kaʊntənt/
+It' a regular nine-to-five office job.  /'regjulə[r]/
+So, I get up at 7am and get home around 6pm.
+That's Ok though.
+because I like to go out at night.
+I go to bed around midnight on weekdays.
+----------------------------------- habit-13
+Well, my hours are a bit different.
+I am a nurse. /nɜ:s/ 
+I start work 11 at night.
+I work until 7 am.
+I get home at 8 and go to bed at about 8:30.
+I sleep until 4pm.
+Oh, you know I have dinner, watch TV see friends 
+It's great schedule for me.  /'skedʒʊl/
+-----------
+Tom has to wake up early to go to the airport.
+But when his roommate wakes him up. /'ru:mmeit/ 
+He doesn't want to get up.
+The room is very cold and dark.
+And he wants to go back to sleep.
+TOm gets up but he doesn't have time to take a shower.
+He gets dressed quickly and goes to the airport.
+He's lucky because he doesn't miss his plan.
+------------
+Alice and Peter go away for the weekend.
+They go to the beach.
+It's winter.
+So, they can't go swiming.
+But they take walks on the beach.
+And they get plenty of fresh air.
+On Friday night, they go dancing.
+And on Sunday, they go ice skating /'skeitiŋ/
+They have a good time and are very happy.
+------------
+These days, now of course.
+You can email, listen to music and shop online.
+You can google for information about anything and everything.
+or just put on your google glasses.
+You can book a hotel, a vacation or movie tickets.
+You can read a book, you can pay your bills.
+you can watch your favority TV program.
+you can play chess with a partner in China.
+you can chat with your friends and share photos.
+you can the list is endless.
+-----------***
+The weather is very different in this large country.
+So there's something to do everyone in every season
+Spring can arrive in February in Victoria on the west coast. /ə'raiv/ /'febrʊəri/ /kəʊst/ 
+In order parts of Canada, it gets warm in early April,  /ˈwoɚm/ 
+and Spring weather countinues until June.
+In British Colombia, you can Kayak, camp or take a train trip through the Rocky mountains. /'briti∫/ 

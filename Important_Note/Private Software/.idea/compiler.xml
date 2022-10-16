@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="1" />
+        <module name="new-jdbc-12-month-2018" />
+        <module name="bba-mobile-api" />
+        <module name="demo" />
+        <module name="demo (1)" />
+        <module name="boot-form-handling" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1" target="1.11" />
+      <module name="bba-mobile-api" target="11" />
+      <module name="boot-form-handling" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="demo (1)" target="1.11" />
+      <module name="new-jdbc-12-month-2018" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="1" options="-parameters" />
+      <module name="bba-mobile-api" options="-parameters -processor lombok.launch.AnnotationProcessorHider$AnnotationProcessor,org.mapstruct.ap.MappingProcessor,com.querydsl.apt.jpa.JPAAnnotationProcessor -Amapstruct.defaultComponentModel=spring" />
+      <module name="boot-form-handling" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+    </option>
+  </component>
+</project>
