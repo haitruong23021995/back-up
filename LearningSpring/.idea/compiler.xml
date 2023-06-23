@@ -9,20 +9,32 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-ssl" />
         <module name="SpringbootPwdEncryptionUsingJasypt" />
+        <module name="boot-form-handling" />
+        <module name="SpringDemo" />
+        <module name="SpringJMSConsumer" />
+        <module name="SpringJMSProducer" />
+        <module name="jms (1)" />
         <module name="pdfgenerator" />
         <module name="demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot-form-handling" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="jms" target="1.5" />
+      <module name="jms (1)" target="1.5" />
       <module name="pdfgenerator" target="1.8" />
       <module name="spring-boot-ssl" target="1.8" />
       <module name="SpringbootPwdEncryptionUsingJasypt" target="1.8" />
+      <module name="SpringDemo" target="1.5" />
+      <module name="SpringJMSConsumer" target="1.5" />
+      <module name="SpringJMSProducer" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringbootPwdEncryptionUsingJasypt" options="-parameters" />
+      <module name="boot-form-handling" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="pdfgenerator" options="-parameters" />
       <module name="spring-boot-ssl" options="-parameters" />

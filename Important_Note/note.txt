@@ -1,14 +1,4 @@
 supermantnh2302 a01246515879
-Email Success: hai.duong@success-ss.com.vn     P@ssword123
-Skype: hai.truong.successsoftware@gmail.com    P@ssword852934
-Team && Email Zaiten LLC: hai.duong@zaitenllc.com       
-Drogba@X01246515879 
-Link Git: bitbucket.org hai.duong@zaitenllc.com haiduong2302
-Password postgresql: t0ps3cr3t 
-hai.truong@tpptechnology.com
-12345678@X
-
-
 
 https://docs.google.com/spreadsheets/d/16b3xuwg-znAFcaVbXtJHd78xGmuZyfYgyFmuJjBHX2s/edit#gid=1029136203
 
@@ -31,15 +21,6 @@ If the new instance works properly, create Window service for it:  pg_ctl regist
 hai.truong@tpptechnology.com
 Drogba@X01246515879
 HaiTruong@2022
-
-How to make PM unsuccessful:
-+ loan PM:
-set savings committed = max balance
-make PM set 970.79
-+ admin fee:
-before sign and contract -> change admin fee in origination db to 970.79 -> show popup
-
-https://acb-qa-rloc-gateway.creditstrong.com/core/commercial/products -> QA-RLOC
 
 https://chrome.google.com/webstore/detail/ejoy-english-learn-with-m/amfojhdiedpdnlijjbhjnhokbnohfdfb?hl=vi
 https://voicenotebook.com/prononce.php

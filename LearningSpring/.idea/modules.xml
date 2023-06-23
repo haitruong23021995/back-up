@@ -3,8 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LearningSpring.iml" filepath="$PROJECT_DIR$/.idea/LearningSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Java_Spring_2019/Spring_2019/Spring_JMS_ActiveMQ_ Example_with_Annotations_Product/SpringDemo/SpringDemo.iml" filepath="$PROJECT_DIR$/../../Java_Spring_2019/Spring_2019/Spring_JMS_ActiveMQ_ Example_with_Annotations_Product/SpringDemo/SpringDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Java_Spring_2019/Spring_2019/Spring_JMS_ActiveMQ_Product_EnableJms/SpringJMSConsumer/SpringJMSConsumer.iml" filepath="$PROJECT_DIR$/../../Java_Spring_2019/Spring_2019/Spring_JMS_ActiveMQ_Product_EnableJms/SpringJMSConsumer/SpringJMSConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Java_Spring_2019/Spring_2019/Spring_JMS_ActiveMQ_Product_EnableJms/SpringJMSProducer/SpringJMSProducer.iml" filepath="$PROJECT_DIR$/../../Java_Spring_2019/Spring_2019/Spring_JMS_ActiveMQ_Product_EnableJms/SpringJMSProducer/SpringJMSProducer.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringbootPwdEncryptionUsingJasypt/SpringbootPwdEncryptionUsingJasypt.iml" filepath="$PROJECT_DIR$/SpringbootPwdEncryptionUsingJasypt/SpringbootPwdEncryptionUsingJasypt.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/Important_Note/Private Software/demo/demo.iml" filepath="$USER_HOME$/Desktop/Important_Note/Private Software/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-security-jdbc-authentication/boot-form-handling.iml" filepath="$PROJECT_DIR$/boot-security-jdbc-authentication/boot-form-handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Java_Spring_2019/Java_2019/jmsdemo_send_receive/jmsdemo/jms (1).iml" filepath="$PROJECT_DIR$/../../Java_Spring_2019/Java_2019/jmsdemo_send_receive/jmsdemo/jms (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-pdf-generator/pdfgenerator.iml" filepath="$PROJECT_DIR$/spring-boot-pdf-generator/pdfgenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot-ssl/spring-boot-ssl.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot-ssl/spring-boot-ssl.iml" />
     </modules>

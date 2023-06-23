@@ -1,13 +1,13 @@
 https://docs.google.com/spreadsheets/d/16b3xuwg-znAFcaVbXtJHd78xGmuZyfYgyFmuJjBHX2s/edit#gid=1029136203
 
-Integer vs int in java //TODO
-Long vs long in java //TODO
 Checked Exception vs Unchecked Exception and Why use custom exceptions:
 + https://www.baeldung.com/java-checked-unchecked-exceptions
 + https://stackify.com/java-custom-exceptions/
-Collection vs Collections //TODO
+Collection vs Collections 
+https://www.geeksforgeeks.org/collection-vs-collections-in-java-with-example/
+
 DJ //TODO
-Spring JPA //TODO
+Spring JPA 
 Why use Spring JPA:
 + Old System :
 - systax SQL Server is other PostgreSQL. so, manadatory must change code in Spring JDBC
@@ -29,9 +29,9 @@ bat goi tin o giua khi chuyen tien
 throws vs throw new
 STATELESS trong spring
 GET vs POST: https://stackoverflow.com/questions/3477333/what-is-the-difference-between-post-and-get
-JsessionID cua cookie in browser
+
 @GeneratedValue(strategy = GenerationType.IDENTITY)
-csrf
+CSRF
 RBAC
 logout cookie:
 + https://www.tutorialspoint.com/spring_security/spring_security_form_login_remember_me_and_logout.htm
@@ -41,7 +41,6 @@ Spring Security Session:
 * https://viblo.asia/p/spring-security-cross-site-request-forgery-csrf-vyDZOyjG5wj
 GetAttribute vs GetParameter :
 * https://www.edureka.co/community/8153/what-difference-between-getattribute-and-getparameter-java#:~:text=getAttribute()%20%2D,a%20request%20to%20another%20resource
-SQL and ANGULAR and ENGLISH and restful API JSON
 excel libraries http://jxls.sourceforge.net/reference/xls_area.html
 
 etc et-se-do-ro
@@ -61,62 +60,353 @@ Why implemente Serializable:
 + https://mkyong.com/java-best-practices/understand-the-serialversionuid/
 why use builer:
 + https://www.baeldung.com/lombok-builder NOT_OK
-why use autowired vs resource
 okhttp3 vs resttemplate:
 + get free api https://rapidapi.com/slotixsro-slotixsro-default/api/covid-19-tracking/
 + https://www.baeldung.com/guide-to-okhttp
 + https://www.baeldung.com/spring-webclient-resttemplate#:~:text=RestTemplate%20uses%20Java%20Servlet%20API,RestTemplate%20will%20still%20be%20used.
 + okhttp3 has sync and async. resttemplate has sync
+
 StringBuffer vs StringBuilder *********************
-Json vs gson
 Spring JPA
-Boolean vs boolean
 why use java stream
-exception *****************************************
-https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring
-unit test cons injection vs autowired
-https://www.geeksforgeeks.org/reflection-in-java/
-String Pool in Head (Stack) https://viblo.asia/p/string-pool-la-gi-4dbZNL3L5YM
-convert date time to local datetime create libraries
+
+String Pool in Head (Stack)
+https://viblo.asia/p/string-pool-la-gi-4dbZNL3L5YM
 Imuratable all final variable
 TreeMap auto sorted Map natural sorting
-java reflection for autowired OOP vs constructor 
 
 @Transional (all method in it)
-use Char when huong auth password
-sequence SQL scan default
-contraint SQL validate(check null, check unique, etc ...)
-index scan
-execution plan
-explain analyze
-cluter index
 
 Patch method update chi tiet nho
 Put method update nhieu chi tiet
 
-multi thread in spring boot
-java reflection:
-* https://www.javacodegeeks.com/2019/02/spring-field-dependency-injection-example.html#:~:text=Field%20Based%20Dependency%20Injection,if%20the%20field%20is%20private.
-immutable class
 @Primary, @Qualifier
 singleton beans
 Inversion of Control
+
 cac spring jpa ko lm dc:
 and Or ngang cap
 id tang name giam theo sorted
 Group By
 
-JPSL
-madatory join table relationship
+SQL Basic
+index vao cot de query cho nhanh hon
+sequence SQL scan default(automatically increase ID using AUTO_INCREMENT)
++ Thay đổi số thứ tự một SEQUENCE đang tồn tại
++ Bắt đầu SEQUENCE tại một giá trị cụ thể
+https://viettuts.vn/sql/sequence-trong-sql
+https://quantrimang.com/hoc/sequence-trong-sql-162691
+contraint SQL validate(check null, check unique, etc ...)
+https://viblo.asia/p/rang-buoc-constraint-trong-sql-eW65GAnJZDO
+index scan
+execution plan
+explain analyze
+cluter index
+mandatory join table relationship
 contraint validate
-
-use key rabbitMQ
-electic search
+primary key vs unique key
+https://www.geeksforgeeks.org/difference-between-primary-key-and-unique-key/
+Change Primary Key Column in SQL Server
+https://www.geeksforgeeks.org/change-primary-key-column-in-sql-server/
 
 JWT
 jwt.io
 
+Autowired vs Constructor injection
+https://www.baeldung.com/constructor-injection-in-spring
+Preventing Errors in Tests
+Constructor injection simplifies writing unit tests. The constructor forces us to provide valid objects for all dependencies. Using mocking libraries like Mockito, we can create mock objects that we can then pass into the constructor.
+
+https://www.geeksforgeeks.org/reflection-in-java/
+https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring
+unit test cons injection vs autowired
+java reflection for autowired OOP vs constructor 
+java-mutable-and-immutable-objects
+https://loipn1804.wordpress.com/2017/09/03/vai-dieu-ve-mutable-va-immutable/
+https://shareprogramming.net/tu-khoa-volatile-concurrency/
 
 middleware spring security (addFilterBefore)
 
-index vao cot de query cho nhanh hon
+Advantages when using the JWT(refresh token and access token)
++ convenience and security, continuously, useful
++ create access tokens that have a short lifespan
++ re-validate a user without them having to re-enter their login credentials multiple times
++ Server will replace an expired access token with a new one without having to ask the user to log in again
+if u pass refresh token valid and unexpired
++ if they ever get leaked or become compromised 
++ Refresh Token Automatic Reuse Detection
+
+http vs https:
+https://viblo.asia/p/https-va-ssl-OeVKBg4AZkW#_ssl-la-gi-3
+authentication-encryption-safety-data
+how does https works:
+The information encrypted by the public key can only be decrypted by the private key
+The client browser and the web server exchange "hello" messages.
+Both parties communicate their encryption standards with each other.
+The server shares its certificate with the browser.
+The client verifies the certificate's validity.
+The client uses the public key to generate a pre-master secret key.
+This secret key is encrypted using the public key and shared with the server.
+The client and server compute the symmetric key based on the value of the secret key.
+Both sides confirm that they have computed the secret key.
+Data transmission uses symmetric encryption.
+                    
+Advantage of HTTPS
+Secure Communication: HTTPS establishes a secure communication link between the communicating system by providing encryption during transmission.
+Data Integrity: By encrypting the data, HTTPS ensures data integrity. This implies that even if the data is compromised at any point, the hackers won’t be able to read or modify the data being exchanged.
+Privacy and Security: HTTPS prevents attackers from accessing the data being exchanged passively, thereby protecting the privacy and security of the users.
+Faster Performance: TTPS encrypts the data and reduces its size. Smaller size accounts for faster data transmission in the case of HTTPS.
+
+cookie session 
+Cookie: store at client
+Seesion: store at server(RAM)
+when user send request with Cookie Header to server and then server recognize who is user by this cookie
+https://www.youtube.com/watch?v=YLRTSVetPQ0&t=10s
+https://www.javatpoint.com/session-vs-cookies
+CSRF:
+https://www.baeldung.com/spring-security-csrf
+How to work:
++ when users logs in successfully -> server send to client a cookie
+-> client will call all method with this cookie -> user clicks the malicious link that is got the cookie
+-> Hacker will use cookie to get info, hack... 
+How to prevent:
++ add hidden file id when user call to server with cookie and this
+<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
++ using samesite cookie on browser side. Meaning reject all sites don't have the same domain to get a cookie 
++ OTP, re-information, 
+Giao thức HTTPS có thể giúp giảm thiểu cuộc tấn công CSRF hay không?
+Không, giao thức HTTPS không có bất cứ tác dụng nào dùng để chống lại các cuộc tấn công CSRF. Tuy nhiên, HTTPS sẽ hỗ trợ giảm thiểu những cuộc tấn công về bảo mật thông thường khác.
+
+anti-forgery token
+CORS with Spring:
+https://www.baeldung.com/spring-cors#:~:text=As%20an%20alternative%20to%20the%20fine-grained%20annotation-based%20configuration%2C,MVC%20and%20combined%20with%20a%20fine-grained%20%40CrossOrigin%20configuration.
+
+Cookie Authen vs Token Authen
+https://www.youtube.com/watch?v=c4CJ4Xjy_aQ
+
+clustered index vs non-clustered index
+CI:
++ don't require unique(but recommend)
++ 1 table only has one CI
++ physically sorts data
+
+NCI:
++ 1 table can has many NCI
++ No physically sorts data
++ a bit expensive(point to leaf node of CI or heap)
+
+Advantages when using the index:
++ improve speedly queries when selecting the data has condition in the index column.
++ sort asc or desc (only find the duplicated data and run order by)
++ adapt with the big record
++ It physically sorts data according to the clustered index key
++ We can have only one clustered index per table
++ A table without a clustered index is a heap, and it might lead to performance issues
++ SQL Server automatically creates a clustered index for the primary key column
++ A clustered index is stored in b-tree format and contains the data pages in the leaf node, as shown below
+(https://www.sqlshack.com/overview-of-non-clustered-indexes-in-sql-server/)
+(https://learn.microsoft.com/en-us/sql/relational-databases/indexes/heaps-tables-without-clustered-indexes?view=sql-server-ver16)
++ SQL Server automatically creates a clustered index for the primary key column
++ A clustered index is stored in b-tree format and contains the data pages in the leaf node, as shown below
+Disadvantages when using the index:
++ slower when inserting or updating or deleting the data 
++ don't adapt with update/insert action always with the big data cuz when u use CUD, it requires CUD of index. Take time to do it
++ shouldn't use in the column has more the values is null(index doesn't store the Null values)
++ damage resource 
+
+All types of index:
+https://www.postgresqltutorial.com/postgresql-indexes/postgresql-index-types/
+Hash index:
+https://viblo.asia/p/hash-index-trong-sql-63vKjwOVZ2R
+
+If the table contains a clustered index, leaf node points to the clustered index data page that consists of actual data
+If the table is a heap (without a clustered index), leaf node points to the heap page
+Index Seek (NonClustered)
+Key Lookup (Clustered)
+Index Scan (We do not have an index on the EmpContactNumber column, therefore Query Optimizer uses the clustered index, but it scans the whole index for retrieving the record)
+
+GROUP BY works:
+It groups rows with the same value into one group or bucket
+GROUP BY is one of the most-used clauses in SQL. It moves you from simply selecting data from the database to grouping rows with the same column values into one group. When used with SQL’s aggregate functions, you can use GROUP BY to compute metrics like counting the number of instances or finding the total, average, minimum, or maximum value.
+
+A heap works:
+When Not to Use a Heap
+Do not use a heap when the data is frequently returned in a sorted order. A clustered index on the sorting column could avoid the sorting operation.
+
+Do not use a heap when the data is frequently grouped together. Data must be sorted before it is grouped, and a clustered index on the sorting column could avoid the sorting operation.
+
+Do not use a heap when ranges of data are frequently queried from the table. A clustered index on the range column will avoid sorting the entire heap.
+
+Managing Heaps:
++ To create a heap, create a table without a clustered index. If a table already has a clustered index, drop the clustered index to return the table to a heap.
++ To remove a heap, create a clustered index on the heap.
++ To rebuild a heap to reclaim wasted space:
++ Create a clustered index on the heap, and then drop that clustered index.
++ Use the ALTER TABLE ... REBUILD command to rebuild the heap.
++ Creating or dropping clustered indexes requires rewriting the entire table. If the table has nonclustered indexes, all the nonclustered indexes must all be recreated whenever the clustered index is changed. Therefore, changing from a heap to a clustered index structure or back can take a lot of time and require disk space for reordering data in tempdb.
+
+different CI and NCI:
+https://thenewstack.io/the-difference-between-clustered-and-non-clustered-sql-indexes/
+
+Đặc điểm của cột nên tạo Index
+Trong trường hợp search record với số lượng ít , lượng data trong table nhiều
+
+Hay được sử dụng như điều kiện của mệnh đề ORDER BY , diều kiện kết quả , điều kiện của WHERE Tuy nhiên, sẽ không cần đánh index nếu tất cả các scan là table target(search all rows)
+
+Vì data có nhiều dữ liệu NULL nên sẽ search ngoài giá trị NULL Do Index không gồm giá trị NULL nên Index sẽ hiệu quả khi search ngoài giá trị NULL
+
+Đặc điểm của cột không nên tạo Index ***
+Trong trường hợp search lượng lớn record từ table hay kích thước của table bé
+Không có logic điều kiện where
+Giá trị của cột hay phải insert , update, delete Nếu insert dòng mới vào table , thì giá trị index cũng tự động đưa vào . Do đó tốc độ search data cũng nhanh hơn nhưng khi phát sinh maintain index thông qua xử lý insert , update, delete thì tốc độ sẽ giảm xuống
+
+In addition, u can make NCI call data row that no need calls to leaf node of CI
+
+B-tree indexes(default when creating index)
+<
+<=
+=
+>=
+BETWEEN
+IN
+IS NULL
+IS NOT NULL
+column_name LIKE 'foo%' 
+column_name LKE 'bar%' 
+column_name  ~ '^foo'
+
+Hash indexes
+ (=) <>
+https://www.postgresqltutorial.com/postgresql-indexes/postgresql-index-types/ 
+https://viblo.asia/p/hash-index-trong-sql-63vKjwOVZ2R
+
+int vs Integer:
+int: 
++ only use int when define variable (Casting is also not supported to convert string to int)
++ binary value
++ store int value into memory 
++ cannot convert the integer value of int into another base
+Ex: String a = "1"; 
+    int b = (int) a; //throwing the compile error
+Integer:
++ can use many function when define variable  (casting is supported constructor integer, parseInt())
++ support function to create binary, octal, hex
++ convert integer to an object and an object to integer
++ toBinaryString(), toOctalString(), and toHexString() which convert the integer value of int into another base
+Ex: Integer x = 12;
+	Object a = x.toBinaryString();
+
+you can use Boolean/boolean instead == Integer/int Long/long
+First one is Object and second one is primitive type.
+On first one, you will get more methods which will be useful.
+Second one is cheap considering memory expense The second will save you a lot more memory, so go for it
+It's fairly Simple and the same for GWT and Java:
+
+boolean can be yes or no
+Boolean can be yes, no or NULL.
+So unless you need the NULL (like for example your loading the field from the database, and you want NULL to be different to false) then stick to boolean.
+
+https://www.geeksforgeeks.org/collection-vs-collections-in-java-with-example/
+
+tính tổng theo đệ quy:
+int Tong(int a[], int n)
+{
+    if (n == 1)
+        return a[0];
+    return Tong(a, n-1) + a[n-1];
+}
+
+
+a[]={1,2,3,4,5}
+n=5
+-------
+
+a[]={1,2,3,4,5} a[4]=+5
+n=4
+
+a[]={1,2,3,4,5} a[3]=+4
+n=3
+
+a[]={1,2,3,4,5} a[2]=+3
+n=2
+
+a[]={1,2,3,4,5} a[1]=+2
+n=1
+
+SQL: injection
+https://www.digitalocean.com/community/tutorials/sql-injection-in-java
+Types of SQL Injection:
+
+1. Boolean Based SQL Injection
+The above example is a case of Boolean Based SQL Injection. It uses a boolean expression that evaluates to true or false. It can be used to get additional information from the database. For example;
+
+Input Data: 2 or 1=1
+
+SQL Query:  select first_name, last_name from tbl_employee where empId=2 or 1=1
+
+So Query will return all the rows of the table.
+
+2. Union Based SQL Injection
+SQL union operator combines data from two different queries with the same number of columns. In this case, the union operator is used to get data from other tables.
+
+Input Data: 2 union select username, password from tbluser
+
+Query:  Select first_name, last_name from tbl_employee where empId=2 union select username, password from tbluser
+
+So an attacker can obtain user credentials.
+
+3. Time-Based SQL Injection
+In  Time Based SQL Injection, special functions are injected in the query which can pause execution for a specified amount of time. This attack slows down the database server. It can bring down your application by affecting the database server performance. For example, In MySQL:
+
+Input Data: 2 + SLEEP(5)
+
+Query:  select emp_id, first_name, last_name from tbl_employee where empId=2 + SLEEP(5)
+
+So query execution will pause for 5 seconds.
+
+4. Error Based SQL Injection
+
+Best Practices to avoid SQL Injection
+Validate data before using them in the query.
+Do not directly concatenate data ( received as user input) to create SQL queries.
+Use frameworks like Hibernate and Spring Data JPA for the data layer of an application.
+Use positional parameters in the query. If you are using plain JDBC, then use PreparedStatement to execute the query.
+(PreparedStatement instead of Statement to execute the query cuz PreparedStatement can read, know and detect SQL injection)
+Do not return sensitive error code and message to the end-user.
+Use tools like SQLMap to find and fix SQL Injection vulnerabilities in your application.
+
+:: in java 8 stream method reference
+https://www.geeksforgeeks.org/double-colon-operator-in-java/
+
+Interface vs. Abstract Class
+https://gpcoder.com/3854-interface-trong-java-8-default-method-va-static-method/
+https://www.baeldung.com/java-interface-vs-abstract-class
+Interface:
++ Can implement multiple the interfaces
++ have the restrictions on field(all are public static final) and method modifiers(public)
++ Can't create the constructor
++ if using functional interface, it would have the restriction that allows only the abstract method
+Abstract Class:
++ Can't extend multiple the classes, only extend a class
++ have no restrictions on field and method modifiers
++ can create the constructor
++ have no the restriction about the number of the abstract method in class	
++ If one wants to have non-final or non-static methods to modify the states of an object
+Abstract Class extend the interface:
++ No need to override all method of interface(because of Abstract Class)
+Class is implemented 2 interfaces:
++ Need to override all method(default method and abstract method unless static method)  
+
+
+Object class:
++ All method is public, unless the clone method (protected) ()
+
+Functional Interface:
+https://gpcoder.com/3869-functional-interface-trong-java-8/
++ Single Abstract Method : It's only one the abstract method.
++ If trying to set 2 or more, it throws the exception.
++ Can't add clone() method because the access modifier of the clone method of Object is protected
++ It'll be the abstract class.
++ The main of advantage: can use Lambda Expression
++ It can extends the other inteface.if the parent inteface has 2 the abstract class -> throwing the exception
++ Can add the default or static methods

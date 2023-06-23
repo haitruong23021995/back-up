@@ -18,6 +18,9 @@ public class ProductService {
     @Autowired
     private ProductRepository repository;
 
+    @Autowired
+    private LogService logService;
+
     public boolean defaultProductsPresent() {
         return repository.count() > 0;
     }
@@ -28,8 +31,9 @@ public class ProductService {
     }
 
     public List<Product> getProducts() {
-        log.info("Returning all products");
+        logService.addLog("Returning all products");
         return repository.findAll();
+//        return null;
     }
 
     //NOTE - we are only considering the happy path.
@@ -39,5 +43,9 @@ public class ProductService {
     public Product getProduct(final UUID referenceId) {
         log.info("Returning product by ref-id = {}", referenceId);
         return repository.findByRefId(referenceId);
+    }
+
+    public List<Product> findByNameAndPriceOrRefId(String name, double price, UUID refId) {
+        return repository.findByNameAndPriceOrRefId(name, price, refId);
     }
 }

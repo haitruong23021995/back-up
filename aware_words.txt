@@ -45,8 +45,8 @@ ce /s/
 center /s3nter/
 receive /ri:si:v/
 princess /prinses/
-celebrity 
-ceremony
+celebrity [ˈsel.ə.breɪt]
+ceremony [ˈser.ə.mə.ni]
 
 ee /i:/
 tree /tri:/
