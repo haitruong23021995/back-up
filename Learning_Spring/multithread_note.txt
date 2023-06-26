@@ -1,0 +1,122 @@
+https://loipn1804.wordpress.com/2017/09/03/vai-dieu-ve-mutable-va-immutable/
+https://www.geeksforgeeks.org/difference-between-atomic-volatile-and-synchronized-in-java/
+https://shareprogramming.net/tu-khoa-volatile-concurrency/
+Cao-S%C3%ACn-S%C3%BA-A-L%E1%BB%AD-Uy-T%C3%ADn-S%E1%BB%91-1-Vi%E1%BB%87t-Nam-109078665303095/
+cơ chế blocking
+sync on 1 object
+cơ chế blocking
+private Lock lock = new ReentrantLock();
+locking in java
+java mutable vs immutable 
+compare 3 atomic sync async
+CAS:https://howtodoinjava.com/java/multi-threading/compare-and-swap-cas-algorithm/
+https://www.vogella.com/tutorials/JavaConcurrency/article.html
+https://www.baeldung.com/java-atomic-variables
+a low-level observer pattern 
+thread 1 -> has cache 16558-9555-51885-54777-BT-53865-45631
+thread 2 -> has cache Ignore gt 54901-54959-55148
+atomic operation -> has cache 16198-4969
+
+=> should using volatile
+when update in or from memory main
+
+The thread cache and main memory values might differ
+
+This means that the increment operation isn't atomic.
+
+The problem will happen when several threads start working with the value, and read it before another one writes it.
+example:
+thread 1 -> read - increament - (1)- write(save)
+
+(1) thread 2 -> read - - 
+=> should using sync to solve this problem
+but :
++ the performance takes a hit. The process of suspending and then resuming a thread is very expensive.
+
+Atomic vs synchronized
+PERFORMANCE: Atomic variables perform better than a synchronized keyword because atomic variables use concurrency support provided by hardware for various atomic operations, like Compare-And-Swap or read-modify-write. Note that synchronization uses a locking mechanism.
+
+Autowired vs Constructor injection
+https://www.baeldung.com/constructor-injection-in-spring
+Preventing Errors in Tests
+Constructor injection simplifies writing unit tests. The constructor forces us to provide valid objects for all dependencies. Using mocking libraries like Mockito, we can create mock objects that we can then pass into the constructor.
+
+SOLID---------
+Single responsibility principle:
+A class should have one and only one reason to change, meaning that a class should have only one job
+lass UserService {
+    // Get data from database
+    public User getUser() {
+        return null;
+    }
+ 
+    // Check validation
+    public boolean isValid() {
+        return true;
+    }
+ 
+    // Show Notification
+    public void showNotification() {
+ 
+    }
+ 
+    // Logging
+    public void logging() {
+        System.out.println("...");
+    }
+ 
+    // Parsing
+    public User parseJson(String json) {
+        return null;
+    }
+}
+, class này thực hiện rất nhiều trách nhiệm khác nhau: lấy dữ liệu từ DB, validate, thông báo, ghi log, xử lý dữ liệu, … Khi chỉ cần ta thay đổi cách lấy dữ liệu DB, thay đổi cách validate, … ta sẽ phải sửa đổi class này, càng về sau class sẽ càng phình to ra. Rất khó khăn khi maintain, upgrade, fix bug, test, 
+
+Open-Closed principle:
+open for extension, but closed for modification.
+Thêm một validation mới chúng ta phải trực tiếp sửa code bằng if-else condition.
+Sửa code nếu validation bị thay đổi logic.
+Testing khó khăn, chúng ta phải test cả phần thực hiện logic và validation
+-> use DI
+
+violate:vi pham
+
+Liskov substitution principle:
+Objects of the subclass type (for example) can replace objects of the parent class without causing an error.
+
+Nếu chúng ta tạo ra một lớp CleanerStaff kế thừa từ lớp Employee, và implement hàm working() cho lớp này, thì mọi thứ đều ổn, tuy nhiên lớp mới này cũng lại có hàm checkAttendance() để điểm danh, mà như thế là sai quy định dẫn đến chương trình bị lỗi. Như vậy, thiết kế lớp CleanerStaff kế thừa từ lớp Employee là không được phép.
+
+official employee: nv chinh thuc
+
+
+Interface segregation principle:
+Many small interfaces are better than one general interface
+interface Animal {
+
+    void eat();
+
+    void run();
+
+    void fly();
+
+}
+
+interface Animal {
+
+    void eat();
+
+}
+
+interface RunnableAnimal extends Animal {
+
+    void run();
+
+}
+
+interface FlyableAnimal extends Animal {
+
+    void fly();
+
+}
+
+I have 2 class Dog and Snake

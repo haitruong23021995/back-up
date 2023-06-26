@@ -1,0 +1,224 @@
+basic syntax :
+Basic Syntax	/ˈbeɪsɪk/ /ˈsɪntæks/
+consider	/kənˈsɪdər/ can nhac
+defined	/dɪˈfaɪnd/ xac dinh
+invoking	/ɪnˈvoʊkɪŋ/ keu goi
+briefly	/ˈbrifli/ tom tac 
+instance	/ˈɪnstəns/ thi du, the hien
+state	/steɪt/ trang thai
+behavior	/bɪˈheɪvjər/ hanh vi
+barking	/ˈbɑrkɪŋ/ hay sua
+blueprint	/ˈbluˌprɪnt/ ban ve thiet ke
+basically	/ˈbeɪsɪkli/ ve co ban adv
+contain == include	/kənˈteɪn/ == /ɪnˈklud/ bao gom
+Sensitivity	/ˌsɛnsɪˈtɪvɪti/ su nhay cam
+sensitive	/ˈsɛnsətɪv/ nhay cam adj
+identifier	/aɪˈdɛntəˌfaɪər/ dinh danh
+several	/ˈsɛvrəl/ 1 vai
+Program	/ˈproʊˌɡræm/ chuong trinh n,v
+append	== add /əˈpɛnd/ noi them 
+compile	/kəmˈpaɪl/ bien dich v
+Assume	/əˈsum/ cho rang
+processing	/ˈprɑsɛsɪŋ/ xu li n
+mandatory	/ˈmændəˌtɔri/ bat buoc n,adj
+components	/kəmˈpoʊnənts/ cac thanh phan
+legal	/ˈliɡəl/ hop phap adj
+possible	/ˈpɑsəbəl/ kha thi adj
+categories == kind == type == genre /ˈkætəˌɡɔriz/ the loai
+protected	/prəˈtɛktəd/ dc bao ve
+abstract	/ˈæbstrækt/ truu tuong n,v,adj
+multiple	/ˈmʌltəpəl/ nhieu n,adj
+itself	/ɪtˈsɛlf/ chinh no
+heap	/hip/ dong n,v
+construct == build /kənˈstrʌkt/ xay dung v
+upcoming	/ˈʌpˌkʌmɪŋ/ sap toi adj
+chapters	/ˈʧæptərz/ chuong
+restrict	== limit /riˈstrɪkt/ han che v
+enumerated	/ɪˈnuməˌreɪtɪd/ liet ke v
+reduce	!= increase /rəˈdus/ giam bot
+produce	/ˈproʊdus/ san xuat n,v
+reserved	/rɪˈzɜrvd/ kin dao
+constant	/ˈkɑnstənt/ hang so n,adj
+supports	/səˈpɔrts/ ho tro n,v
+single-line	/ˈsɪŋɡəl/-/laɪn/ mot dong
+multi-line	/ˈmʌlti/-/laɪn/ nhieu dong
+ignored	/ɪɡˈnɔrd/ phot lo
+possibly	/ˈpɑsəbli/ co kha nang adv
+Inheritance	/ɪnˈhɛrətəns/ di san n
+derived	/dəˈraɪvd/ chuyen hoa v
+concept	/ˈkɑnsɛpt/ y tuong ns
+scenario	/sɪˈnɛrioʊ/ kich ban
+subclass != superclass	subclass != /ˌsupərˈklæs/
+contract	/ˈkɑnˌtrækt/ hop dong n,v
+deriving	/dəˈraɪvɪŋ/ chuyen hoa
+
+constructors :
+constructor	/kənˈstrʌktər/ ng xd n
+initializes	/ɪˈnɪʃəˌlaɪzɪz/ khoi tao v
+syntactically	syntactically theo cu phap adv
+explicit	/ɪkˈsplɪsət/ rõ ràng adv
+Typically	/ˈtɪpɪkli/ tieu bieu
+initial	/ɪˈnɪʃəl/ chu ki, ban dau n,v,adj
+perform	/pərˈfɔrm/ trinh dien v
+start-up	/ˈstɑrˌtʌp/ khoi nghiep
+procedures	/prəˈsiʤərz/ thu tuc
+formed	/fɔrmd/ hinh thanh
+classes	/ˈklæsəz/ cac lop
+whether	/ˈwɛðər/ không biết có đúng chăng
+automatically	/ˌɔtəˈmætɪkli/ tu dong hoa adv
+default	/dɪˈfɔlt/ mac dinh n
+argument	/ˈɑrɡjəmənt/ li le n
+specifies	/ˈspɛsəˌfaɪz/ chi dinh v
+accept	/ækˈsɛpt/ chan nhan v
+parameters	== element /pəˈræmətərz/ thanh phan
+initialized	/ɪˈnɪʃəˌlaɪzd/ khoi tao v
+initialize	/ɪˈnɪʃəˌlaɪz/ khoi tao v
+most often	/moʊst/ /ˈɔfən/ thiong xuyen nhat
+declare	/dɪˈklɛr/ khai bao 
+parentheses	/pəˈrɛnθəˌsiz/ dau ngoac don
+
+Variable Types:
+manipulate	/məˈnɪpjəˌleɪt/ van dung v
+specific	/spəˈsɪfɪk/ chi dinh v
+determines	== defined /dəˈtɜrmənz/ xd v
+layout	/ˈleɪˌaʊt/ cach trinh bay n,v
+range	== scope /reɪnʤ/ pham vi
+within	/wɪˈðɪn/ o trong
+stored	/stɔrd/ luu tru adj
+set	/sɛt/ dat vao v
+apply	/əˈplaɪ/ ap dung v
+operations	/ˌɑpəˈreɪʃənz/ su hoat dong n
+various	/ˈvɛriəs/ nhieu
+Instance	/ˈɪnstəns/ the hien n
+entered	/ˈɛntərd/ nhap vao v
+destroyed	/dɪˈstrɔɪd/ bi pha huy adj
+exits	/ˈɛɡzɪts/ loi ra n,v
+modifiers /ˈmɑdəˌfaɪərz/ su sua doi n
+visible	/ˈvɪzəbəl/ de thay adj
+within	/wɪˈðɪn/ ben trong
+internally	/ɪnˈtɜrnəli/ noi bo adv
+defined	== determined /dɪˈfaɪnd/ xd
+scope == range /skoʊp/ pham vi
+produce	/ˈproʊdus/ san xuat v
+initializing	/ɪˈnɪʃəˌlaɪzɪŋ/ khoi tao v
+compilation	/ˌkɑmpəˈleɪʃən/ su bien soan n
+allocated	/ˈæləˌkeɪtɪd/ chi dinh v
+essential	/ɪˈsɛnʃəl/ can thiet adj
+recommended	/ˌrɛkəˈmɛndəd/  goi y adj
+visibility	/ˌvɪzəˈbɪlɪti/ su hien thi n
+accessibility	/ˌæksɛsəˈbɪlɪti/ kha nang tiep can n
+qualified	/ˈkwɑləˌfaɪd/ dat tieu chuan adj
+fully	/ˈfʊli/ day du adv
+rarely	/ˈrɛrli/ hiem khi
+program	/ˈproʊˌɡræm/  chuuong trinh n,v
+
+Object and Classes:
+fundamental	/ˌfʌndəˈmɛntəl/ nen tang
+concepts	/ˈkɑnsɛpts/ khai niem
+Polymorphism	/ˌpɑˌliˈmɔrfɪzm/ hien tuong nhieu dang
+Inheritance	/ɪnˈhɛrətəns/ su thua ke
+Encapsulation	Encapsulation su goi gon
+Abstraction	/æbˈstrækʃən/ tinh truu tuong
+states	== status /steɪts/ trang thai
+behavior	/bɪˈheɪvjər/ hanh vi
+blueprint	/ˈbluˌprɪnt/ so do thiet ke
+describes	/dɪˈskraɪbz/ mo ta
+deep	/dip/ sau tham
+similar	== same/ˈsɪmələr/ giong nhau
+characteristics	/ˌkɛrəktəˈrɪstɪks/ dac trung n,adj
+also == as well	/ˈɔlsoʊ/ cung
+fields	== item == variable /fildz/ bien
+individual	== private /ˌɪndəˈvɪʤəwəl/ ca nhan n,adj
+instantiated == contruct == initialize	/ɪnˈstænʃiˌeɪtəd/ khoi tao v
+explicitly	/ɪkˈsplɪsətli/ ro rang adv
+invoked	/ɪnˈvoʊkt/ cau khan v
+subsequent = next	/ˈsʌbsəkwənt/ tiep theo
+multiple	/ˈmʌltəpəl/ nhieu adj
+imply	/ɪmˈplaɪ/ nghia la v
+Apart /əˈpɑrt/ cach nhau adv
+categorizing	/ˈkætəɡəˌraɪzɪŋ/ phan loai v
+hundreds	/ˈhʌndrədz/ hang tram
+locate	/ˈloʊˌkeɪt/ dinh vi
+particular	/pərˈtɪkjələr/ cu the, rieng biet adj
+
+rieng biet 
+dac biet
+cu the
+
+Modifier Types:
+definitions	/ˌdɛfəˈnɪʃənz/ cac dinh nghia n
+meanings	/ˈminɪŋz/ co nghia adj
+wide	/waɪd/ rong adj
+variety	/vəˈraɪəti/ da dang n
+precedes	/prɪˈsidz/ di truoc v
+rest	/rɛst/ con lai n, v
+provides	/prəˈvaɪdz/ con lai n,v
+package	/ˈpækəʤ/ goi hang n
+subclasses	subclasses phan lop n
+achieve	/əˈʧiv/ dat duoc
+protected	/prəˈtɛktəd/ bao ve
+produce /ˈproʊdus/ san xuat n,v
+functionality	/ˌfʌŋkʃəˈnælɪti/ chuc nang n
+finalizing	/ˈfaɪnəˌlaɪzɪŋ/ hoan thien v
+synchronized	/ˈsɪŋkrəˌnaɪzd/ lam cho dong bo v
+volatile	/ˈvɑlətəl/ bay hoi adj
+
+Basic Operators:
+rich	== expensive /rɪʧ/ giau co adj
+operator	/ˈɑpəˌreɪtər/ nha dieu hanh n
+manipulate	/məˈnɪpjəˌleɪt/ van dung v
+divide	== split /dɪˈvaɪd/ chia v
+groups	/ɡrups/ cac nhom n
+arithmetic	/əˈrɪθməˌtɪk/ toan hoc n
+relational	/riˈleɪʃənəl/ quan he n
+bitwise	bitwise 
+logical	== valid /ˈlɑʤɪkəl/ hop ly adj
+assignment	/əˈsaɪnmənt/ su phan cong n
+miscellaneous	/ˌmɪsəˈleɪniəs/ dieu khoan khac n
+mathematical	/ˌmæθəˈmætɪkəl/ toan hoc n
+expressions	/ɪkˈsprɛʃənz/ bieu thuc
+used	/juzd/ da su dung adj
+algebra	/ˈælʤəbrə/ dai so hoc
+Assume	/əˈsum/ gia su v
+Addition	/əˈdɪʃən/ toan cong n
+Subtraction	/səbˈtrækʃən/ toan tru n
+Multiplication	/ˌmʌltəpləˈkeɪʃən/ toan nhan n
+Division	/dɪˈvɪʒən/ toan chia n
+Subtracts	/səbˈtrækts/ tru di v
+operand	operand toan hang
+Multiplies	/ˈmʌltəˌplaɪz/ phep nhan v
+Divides	/dɪˈvaɪdz/ phep chia v
+Modulus	Modulus tieu chuan
+remainder	/rɪˈmeɪndər/ do con lai n,v 
+Increases	/ɪnˈkrisəz/ tang len n, v
+Increment	/ˈɪnkrəmənt/ su tang len n
+Decreases	/dɪˈkrisəz/ giam xuong n, v
+Decrement	/dɪˈkrɪmənt/ su giam xuong n
+Relational	/riˈleɪʃənəl/ co moi quan he n
+Assume	/əˈsum/ gia su v
+equal	/ˈikwəl/ bang nhau v
+becomes	/bɪˈkʌmz/ tro thanh v
+condition	/kənˈdɪʃən/ dieu kien n
+Logical	== valid /ˈlɑʤɪkəl/ hop li adj
+operator	/ˈɑpəˌreɪtər/ nha dieu hanh n
+non-zero	/nɑn/-/ˈzɪroʊ/ khac khong
+reverses	/rɪˈvɜrsɪz/ dao nguoc n, v
+supported	== assist /səˈpɔrtəd/ ho tro
+Assigns	/əˈsaɪnz/ chi dinh(ng ke thua) n,v
+equivalent	/ɪˈkwɪvələnt/ tuong duong n
+result	/rɪˈzʌlt/ ket qua n
+Multiply	/ˈmʌltəˌplaɪ/ nhan len v
+Bitwise	Bitwise
+exclusive	/ɪkˈsklusɪv/ loai tru adj
+inclusive	== consist of == include /ɪnˈklusɪv/ bao gom
+ternary	ternary có ba biến số
+consists of	 == contain /kənˈsɪsts/ /ʌv/ bao gom v
+evaluate	== assess/ɪˈvæljuˌeɪt/ danh gia v
+expressions	/ɪkˈsprɛʃənz/ bieu thuc n
+goal	== purpose == target /ɡoʊl/ muc tieu n
+reference	/ˈrɛfərəns/ tham quyen giai quyet
+particular	== specific /pərˈtɪkjələr/ cu the
+referred	== introduce /rəˈfɜrd/ gioi thieu v
+compatible	/kəmˈpætəbəl/ tuong thich adj
+
+

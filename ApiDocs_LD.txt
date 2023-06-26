@@ -1,0 +1,46 @@
+curl --location --request GET 'https://app.launchdarkly.com/api/v2/projects/toggle-runner-demo/context-kinds' \
+--header 'Authorization: api-4aad7798-7d05-4210-a565-4ab50b148874' \
+--header 'LD-API-Version: beta' \
+--header 'Content-Type: application/json' \
+--data '{
+  "name": "haiTestKindAPI",
+  "description": "An example context kind for haiTestKindAPI",
+  "hideInTargeting": false,
+  "version": 1
+}'
+//get all contexts
+
+curl --location 'https://app.launchdarkly.com/api/v2/flag-statuses/toggle-runner-demo/featuretest' \
+--header 'Authorization: api-4aad7798-7d05-4210-a565-4ab50b148874'
+//get all feature flag statuses
+
+curl --location 'https://app.launchdarkly.com/api/v2/flag-statuses/toggle-runner-demo/featuretest/haiTestFlag' \
+--header 'Authorization: api-4aad7798-7d05-4210-a565-4ab50b148874'
+//get all feature flag status
+
+api-eed2537f-ec48-49af-bacd-d4b1cc79a131 : token writer
+api-4aad7798-7d05-4210-a565-4ab50b148874 : token reader
+api-90d43290-ffd5-4064-a1ad-e850bacf0b4e : token inline
+https://docs.launchdarkly.com/home/contexts/context-kinds?ref=hackernoon.com //TODO only admin role can create context directly
+
+
+curl --location 'https://app.launchdarkly.com/api/v2/flags/toggle-runner-demo' \
+--header 'Authorization: api-eed2537f-ec48-49af-bacd-d4b1cc79a131' \
+--header 'Content-Type: application/json' \
+--data '{
+    "clientSideAvailability": {
+        "usingEnvironmentId": true,
+        "usingMobileKey": true
+    },
+    "key": "flag-key-123abc",
+    "name": "My Flag"
+}'
+
+get contexts //ok
+get context //ok
+create c //ok
+update c //ok
+delete c //still working
+
+1 kind - contexts
+proj/toggle-runner-demo:env/featuretest

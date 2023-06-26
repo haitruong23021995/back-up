@@ -1,0 +1,40 @@
+https://viblo.asia/p/jms-and-activemq-YAQrMJzjM40E
+https://www.youtube.com/watch?v=CrpBJgGqhS8&list=PLmCsXDGbJHdgt5mskUPyhtBHQvQsRoJWj
+
+Messages Enqueued : After producing to the queue (pub msg)
+Messages Dequeued : After consuming to the queue (sub msg)
+Number Of Consumers : After subcribing completed, still wait in the queue to get msg
+Number Of Pending Messages  : After publishing completed, still wait in the queue to sub come and get this msg
+Click Purse: remove all Number Of Pending Messages
+Click Delete: remove all 
+@Listener : always runnning async to receive the msg from Q(faster)
+Embedded: converting Message<Payload> to Payload (general convert - MessageConverter )
+factory.setConcurrency("3-1"); Number Of Consumers == 3 && Messages Dequeued  == 1
+true: using jms topic (Pub/Sub structure), false: using jms queue (PTP structure)
+factory.setPubSubDomain(false);
+ 
+when using this (benefit):
++ The message broker guarantees that the message will not be lost if the consumer is unavailable.
++ Can sending to Message Broker by java and receving by other language
++ Independent of the system that sends it (Providing a means of communication between services that do not have to be running at the same time. The producer can send messages regardless of whether the consumer is active or not)
++ Increases system performance by introducing an asynchronous data transfer system. 
++ Increased reliability by guaranteeing the transmission of messages. If a consumer is not active at the time of sending the message, then there is a guarantee that the message will be read, as it will be stored in the broker.
+
+Drawbacks(Disadvantage):
++ Debugging can be complicated. Imagine you have several stages of asynchronous request creation using the message broker, you send something, and you don't get a response, finding the problem can be very difficult 
++ Increases the complexity of the application system.
++ It's hard for the beginner.
+
+Distributed transaction
+A distributed transaction is a set of operations on data that is performed across two or more data repositories (especially databases). It is typically coordinated across separate nodes connected by a network, but may also span multiple databases on a single server.
+ACID trong db
+CQRS
+Bulk insert/update
+Stream.filter().map().collect()
+.collect de thuc hien tren
+public void congtrutien(){ congtine, tru tien, throw exception}
+log tracking
+design patterns
+hash map vs true map
+why using mokito
+

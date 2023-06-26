@@ -1,0 +1,252 @@
+LDContext context = LDContext.builder("context-key-123abc")
+  .anonymous(true)
+  .build();
+
+
+Redis: https://docs.launchdarkly.com/sdk/features/big-segments#java
+import com.launchdarkly.sdk.server.*;
+import com.launchdarkly.sdk.server.integrations.*;
+
+import java.net.URI;
+import java.time.Duration;
+
+LDConfig config = new LDConfig.Builder()
+    .bigSegments(
+        Components.bigSegments(
+            Redis.bigSegmentStore()
+                .uri(URI.create("redis://my-redis:6379"))
+                .prefix("my-key-prefix")
+        )
+        .userCacheSize(2000)
+        .userCacheTime(Duration.ofSeconds(30))
+    )
+    .build();
+LDClient client = new LDClient(sdkKey, config);
+
+config: https://docs.launchdarkly.com/sdk/features/config
+LDConfig config = new LDConfig.Builder()
+  .http(
+    Components.httpConfiguration()
+      .connectTimeout(Duration.ofSeconds(3))
+      .socketTimeout(Duration.ofSeconds(3))
+  )
+  .events(
+    Components.sendEvents()
+      .flushInterval(Duration.ofSeconds(10))
+  )
+  .build();
+LDClient client = new LDClient("sdk-key-123abc", config);
+
+app-config: https://docs.launchdarkly.com/sdk/features/app-config
+LDConfig config = new LDConfig.Builder()
+  .applicationInfo(
+    Components.applicationInfo()
+      .applicationId("authentication-service")
+      .applicationVersion("1.0.0")
+  ).build();
+
+service-endpoint-configuration: https://docs.launchdarkly.com/sdk/features/service-endpoint-configuration
+LDConfig config = new LDConfig.Builder()
+  .serviceEndpoints(Components.serviceEndpoints()
+    .streaming("https://stream.launchdarkly.us")
+    .polling("https://app.launchdarkly.us")
+    .events("https://events.launchdarkly.us"))
+  .build();
+
+evaluating : https://docs.launchdarkly.com/sdk/features/evaluating used
+boolean value = client.boolVariation("flag-key-123abc", context, false);
+
+evaluation-reasons: https://docs.launchdarkly.com/sdk/features/evaluation-reasons
+import com.launchdarkly.sdk.*;
+
+EvaluationDetail<Boolean> detail =
+  client.boolVariationDetail("flag-key-123abc", context, false);
+  // or stringVariationDetail for a string-valued flag, and so on.
+
+boolean value = detail.getValue();
+int index = detail.getVariationIndex();       // will be < 0 if evaluation failed
+EvaluationReason reason = detail.getReason();
+
+void printReason(EvaluationReason reason) {
+  switch (reason.getKind()) {
+    case OFF:
+      System.out.println("it's off");
+      break;
+    case FALLTHROUGH:
+      System.out.println("fell through");
+      break;
+    case TARGET_MATCH:
+      System.out.println("targeted");
+      break;
+    case RULE_MATCH:
+      EvaluationReason.RuleMatch rm = (EvaluationReason.RuleMatch)reason;
+      System.out.println("matched rule " + rm.getRuleIndex()
+        + "/" + rm.getRuleId());
+      break;
+    case PREREQUISITE_FAILED:
+      EvaluationReason.PrerequisiteFailed pf =
+        (EvaluationReason.PrerequisiteFailed)reason;
+      System.out.println("prereq failed: " + pf.getPrerequisiteKey());
+      break;
+    case ERROR:
+      EvaluationReason.Error e = (EvaluationReason.Error)reason;
+      System.out.println("error: " + e.getErrorKind());
+  }
+  // or, if all you want is a simple descriptive string:
+  System.out.println(reason.toString());
+}
+
+flush(remove): https://docs.launchdarkly.com/sdk/features/flush
+client.flush();
+
+all-flags: https://docs.launchdarkly.com/sdk/features/all-flags
+FeatureFlagsState state = client.allFlagsState(context);
+
+identify: https://docs.launchdarkly.com/sdk/features/identify
+client.identify(context);
+
+logging: https://docs.launchdarkly.com/sdk/features/logging
+import com.launchdarkly.logging.*;
+import com.launchdarkly.sdk.server.*;
+
+LDConfig config = new LDConfig.Builder()
+  .logging(
+    Components.logging(Logs.toStream(System.out)).level(LDLogLevel.DEBUG)
+  )
+  .build();
+
+monitoring: https://docs.launchdarkly.com/sdk/features/monitoring
+DataSourceStatusProvider.Status dataSourceStatus =
+  client.getDataSourceStatusProvider().getStatus()
+
+Alternatively, you can register an event listener that receives a new status value whenever the status changes:
+client.getDataSourceStatusProvider().addStatusListener(
+  status -> {
+    System.out.println("new status is: " + status);
+  }
+);
+
+offline-mode: https://docs.launchdarkly.com/sdk/features/offline-mode
+LDConfig config = new LDConfig.Builder()
+  .offline(true)
+  .build();
+LDClient client = new LDClient("sdk-key-123abc", config);
+client.boolVariation("flag-key-123abc", context, false)
+
+// This call to client.boolVariation always
+// returns the default value (false)
+
+private-attributes: https://docs.launchdarkly.com/sdk/features/private-attributes
+LDConfig configWithAllAttributesPrivate = new LDConfig.Builder()
+  .events(
+    Components.sendEvents()
+      .allAttributesPrivate(true)
+  )
+  .build();
+
+LDConfig configWithSpecificAttributesPrivate = new LDConfig.Builder()
+  .events(
+    Components.sendEvents()
+      .privateAttributes("name", "email", "someAttribute")
+  )
+  .build();
+
+LDContext context = LDContext.builder("context-key-123abc")
+  .set("email", "sandy@example.com")
+  .privateAttributes("email")
+  .build();
+
+flags-from-files: https://docs.launchdarkly.com/sdk/features/flags-from-files
+import com.launchdarkly.sdk.server.*;
+import com.launchdarkly.sdk.server.integrations.*;
+
+LDConfig config = new LDConfig.Builder()
+  .dataSource(
+    FileData.dataSource()
+      .filePaths("file1.json", "file2.json")
+      .autoUpdate(true)
+  )
+  .events(Components.noEvents())
+  .build();
+
+LDClient client = new LDClient("sdk key", config);
+
+daemon-mode: https://docs.launchdarkly.com/sdk/features/relay-proxy-configuration/daemon-mode
+LDConfig config = new LDConfig.Builder()
+  .dataStore(
+    Components.persistentDataStore(
+      SomeDatabaseName.DataStore(storeOptions)
+    )
+  )
+  .dataSource(Components.externalUpdatesOnly())
+  .build();
+
+proxy-mode: https://docs.launchdarkly.com/sdk/features/relay-proxy-configuration/proxy-mode
+LDConfig config = new LDConfig.Builder()
+  .serviceEndpoints(Components.serviceEndpoints()
+    .relayProxy("https://your-relay-proxy.com:8030"))
+  .build();
+
+secure-mode: https://docs.launchdarkly.com/sdk/features/secure-mode
+client.secureModeHash(context);
+
+events: https://docs.launchdarkly.com/sdk/features/events
+client.track("metric-key-123abc", context);
+
+shutdown: https://docs.launchdarkly.com/sdk/features/shutdown
+client.close()
+
+storing-data: https://docs.launchdarkly.com/sdk/features/storing-data
+import com.launchdarkly.sdk.server.*;
+import com.launchdarkly.sdk.server.integrations.*;
+
+LDConfig config = new LDConfig.Builder()
+  .dataStore(
+    Components.persistentDataStore(
+      SomeDatabaseName.dataStore(storeOptions)
+    )
+  )
+  .build();
+LDClient client = new LDClient(sdkKey, config);
+
+import com.launchdarkly.sdk.server.*;
+import com.launchdarkly.sdk.server.integrations.*;
+
+consul: https://docs.launchdarkly.com/sdk/features/storing-data/consul
+LDConfig config = new LDConfig.Builder()
+  .dataStore(
+    Components.persistentDataStore(
+      Consul.dataStore().url(URL.create("http://my-consul:8100"))
+        .prefix("my-key-prefix")
+    ).cacheSeconds(30)
+  )
+  .build();
+LDClient client = new LDClient(sdkKey, config);
+
+dynamodb AWS: https://docs.launchdarkly.com/sdk/features/storing-data/dynamodb
+import com.launchdarkly.sdk.server.*;
+import com.launchdarkly.sdk.server.integrations.*;
+
+LDConfig config = new LDConfig.Builder()
+  .dataStore(
+    Components.persistentDataStore(
+      DynamoDb.dataStore("my-table")
+    ).cacheSeconds(30)
+  )
+  .build();
+LDClient client = new LDClient(sdkKey, config);
+
+redis: https://docs.launchdarkly.com/sdk/features/storing-data/redis
+import com.launchdarkly.sdk.server.*;
+import com.launchdarkly.sdk.server.integrations.*;
+
+LDConfig config = new LDConfig.Builder()
+  .dataStore(
+    Components.persistentDataStore(
+      Redis.dataStore().uri(URI.create("redis://my-redis:6379"))
+        .prefix("my-key-prefix")
+    ).cacheSeconds(30)
+  )
+  .build();
+LDClient client = new LDClient(sdkKey, config);
+

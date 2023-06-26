@@ -1,0 +1,50 @@
+Network Cache
+Web cache:
+After calling any APIs to the server, it returns the data that has html, css, png, ...
+We cache them in the browser, we don't need to call this APIs that is used to call.
+So Doing this, it requires this data that has changes less or no changes.
+
+Cache(RAM) vs DB(SSD or HDD) it's faster than 1m parts
+Cache aside:
+hacker attacks 2 step:
+The first one: the 4 one is no data in DB
+The hacker can attack to spam when he knows the API is returned no data
+If spam so much, the server is overload -> dangaruos
+How to fix:
+When no data in DB, we also store the data into the cache with the null value and set expired time.
+key,value -> key,NULL
+it always is returned the value(NULL or the any value)
+
+App call cache via network
+The first one calling from the app to the cache:
+Example:
+cache has 1,Object_1 (1)
+it responses (1) to the app and the app is stored the key with 1
+When other call from the app to the cache:
+it checks the key first if exsting this, it continues calling the cache otherwise it doesn't call
+
+Trashing ***:
+When the first request A call to the app
+the app call to the cache and it return no data -> continue calling the db and storing in cache is A
+When the second request B call to the app
+the app call to the cache and it has only A data -> continue calling the db and storing in cache is B like replacement B
+so the cache has only B currently.
+Do this and do this, Cache still do store like this
+Cache isn't the meaning in this case
+This case when we have many user, many data, many data and cache only has data less
+How to fix:
++ Upgrade size
++ Only store the data nessessary and the data that is rarely updated by the DB
++ Don't store the data unnessessary and the data that is always updated by the DB
+
+When using this:
++ want to add the data into cache to no need to calculate again
++ no need to save the data in to the DB 
+Why:
++ it stores in RAM
++ Using single thread (IO multithreading, OS, Linux Epoll)
++ Many data types
+
+Disadvantages:
++ Size isn't big (will be expensive when wanna upgrade the size)
++ After shutdowning or restaring the server, the data in the cache are lost

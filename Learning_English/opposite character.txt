@@ -1,0 +1,101 @@
+backward != forward	ˈbækwərd != ˈfɔrwərd
+blunt != sharp	blʌnt != ʃɑrp cùn != nhọn
+boring != interesting	ˈbɔrɪŋ != ˈɪntrəstɪŋ
+bright != dark	braɪt != dɑrk sáng chói != tối tăm
+broad != narrow	brɔd != ˈnɛroʊ rong lon != thu hep
+intelligent != dirty	ɪnˈtɛləʤənt != ˈdɜrti do ban
+cool != warm	kul != wɔrm lanh != am
+cruel != kind	ˈkruəl != kaɪnd doc ac != tot bung
+dangerous != safe	ˈdeɪnʤərəs != seɪf  nguy hiem != an toan
+healthy != unhealthy	ˈhɛlθi != ənˈhɛlθi khoe manh
+deep != shallow	dip != ˈʃæloʊ nong can
+dry != wet	draɪ != wɛt kho != uot
+lazy != hard working	ˈleɪzi != hɑrd ˈwɜrkɪŋ 
+gentle != fierce	ˈʤɛntəl != fɪrs diu dang != manh me
+hard != soft	hɑrd != sɑft
+heavy != light	ˈhɛvi != laɪt
+long != short	lɔŋ != ʃɔrt
+loose != tight	lus != taɪt  long leo != bo sat
+low != high	loʊ != haɪ
+modern != ancient	ˈmɑdərn != ˈeɪnʧənt hien dai != co dai
+noisy != quiet	ˈnɔɪzi != ˈkwaɪət on ao != im lang
+normal != strange	ˈnɔrməl != streɪnʤ binh thuong != xa la
+poor != rich	pur != rɪʧ 
+short != tall	ʃɔrt != tɔl
+sour != sweet	ˈsaʊər != swit chua != ngot
+terrible != wonderful	ˈtɛrəbəl != ˈwʌndərfəl 
+far != near	fɑr != nɪr
+thick != thin	θɪk != θɪn day != mong manh
+straight != curly	streɪt != ˈkɜrli thang than != xoan toc
+fat != slim	fæt != slɪm 
+polite != impolite	pəˈlaɪt != ɪmpəˌlaɪt lich su != bat lich su
+artificial != natural	ˌɑrtəˈfɪʃəl != ˈnæʧərəl nhan tao != tu nhien
+delicious != inedible	dɪˈlɪʃəs != ɪˈnɛdəbəl 
+tidy != messy	ˈtaɪdi != ˈmɛsi ngan nap != lon xon
+pessimistic != optimistic	ˌpɛsəˈmɪstɪk != ˌɑptəˈmɪstɪk bi quan != lac quan
+mean != generous	min != ˈʤɛnərəs ***
+brave != cowardly	breɪv != ˈkaʊərdli can dam != hen nhat
+naughty != nice	ˈnɔti != naɪs vo gia tri
+careful != careless	ˈkɛrfəl != ˈkɛrləs can than != cau tha
+harmful != harmless	ˈhɑrmfəl != ˈhɑrmləs tac hai != vo hai	
+useful != useless	ˈjusfəl != ˈjusləs huu ich != vo ich
+patient != impatient	ˈpeɪʃənt != ɪmˈpeɪʃənt kien nhan != nong nay
+possible != impossible	ˈpɑsəbəl != ɪmˈpɑsəbəl 
+perfect != imperfect	!= ɪmˈpɜrfɪkt 
+friend != unfriendly	frɛnd != ənˈfrɛndli 
+selfish != unselfish	ˈsɛlfɪʃ != ʌnˈsɛlfɪʃ ich ki != ko ich ki
+conscious != unconscious	ˈkɑnʃəs != ʌn bit ro != ko bit
+available != unavailable	əˈveɪləbəl != ʌn 
+fortunate != unfortunate	ˈfɔrʧənət != ʌn may man != ko may man
+unsuccess	ʌnsəkˈsɛs 
+attractive != unattractive	əˈtræktɪv != ʌn hap dan != ko hap dan
+comfortable != uncomfortable	ˈkʌmfərtəbəl != ʌn thoai mai != ko thoai mai
+necessary != unnecessary	ˈnɛsəˌsɛri != ʌn
+important != un	ɪmˈpɔrtənt != ʌn
+honest != dishonest	ˈɑnəst != dɪˈsɑnəst
+loyal != disloyal	ˈlɔɪəl != dɪˈslɔɪəl
+obedient != disobedient	oʊˈbidiənt != dɪs nghe loi
+correct != incorrect	kəˈrɛkt != ɪnkəˈrɛkt
+regular != irregular	ˈrɛɡjələr != ɪˈrɛɡjələr thuong xuyen
+responsible != irresponsible	riˈspɑnsəbəl != irr
+legal != illegal	ˈliɡəl != ɪˈliɡəl hop phap
+straight != crooked	streɪt != krʊkt quanh co
+vertical != horizontal	ˈvɜrtɪkəl != ˌhɔrəˈzɑntəl thang dung != nam ngang
+modern != traditional	ˈmɑdərn != trəˈdɪʃənəl hien dai != truyen thong
+kind != nasty	kaɪnd != ˈnæsti ban thiu
+light != heavy	laɪt != ˈhɛvi 
+polite != rude	pəˈlaɪt != rud bat lich su
+quiet != noisy	ˈkwaɪət != ˈnɔɪzi 
+safe != dangerous	seɪf != ˈdeɪnʤərəs nguy hiem
+soft != hard	sɑft != hɑrd mem mai
+single != married	ˈsɪŋɡəl != ˈmɛrid 
+well != ill	wɛl != ɪl
+asleep != awake	əˈslip != əˈweɪk dang ngu != thuc giac 
+alert != drowsy	əˈlɜrt != ˈdraʊzi canh bao != mo mang
+awesome != terrible	ˈɑsəm != ˈtɛrəbəl
+best != worst	bɛst != wɜrst
+calm != nervous	kɑm != ˈnɜrvəs binh tinh != hoi hop
+certain != unsure	ˈsɜrtən != ənˈʃʊr chac chan != ko dam bao
+close != distant	kloʊs != ˈdɪstənt gan lai != xa xoi
+complete != incomplete	kəmˈplit != ɪnkəmˈplit 
+raw != cooked	rɑ != kʊkt do an song != do an chin
+
+absent /ˈæbsənt/ != present /ˈprɛzənt/ vang mat != xuat hien 
+brave /breɪv/ != coward /ˈkaʊərd/ dung cam != nhat gan  
+constant /ˈkɑnstənt/ != variable /ˈvɛriəbəl/ bat bien != thay doi
+deep /dip/ != shallow /ˈʃæloʊ/ sau != nong can 
+even /ˈivɪn/ != odd /ɑd/ chan != le  
+fact true truth /fækt/ /tru/ /truθ/ != fiction /ˈfɪkʃən/ su that != dieu hu cau
+jolly kidding /ˈʤɑli/ /ˈkɪdɪŋ/ != serious /ˈsɪriəs/ dua gion 
+local /ˈloʊkəl/ != foreign  /ˈfɔrən/ dia phuong != thuoc ng ngoai 
+more /mɔr/ != less /lɛs/  hon != kem 
+most /moʊst/ != least /list/ hau het != it nhat 
+north /nɔrθ/ != south /saʊθ/ bac != nam  
+raise /reɪz/ != lower /ˈloʊər/ tang len != giam xuong 
+rich /rɪʧ/ != poor cheap /pur/ giau != ngheo  
+same /seɪm/ != different /ˈdɪfərənt/ giong nhau != khac biet
+soft /sɑft/ != hard /hɑrd/
+straight /streɪt/ != crooked /krʊkt/ quanh co 
+tidy /ˈtaɪdi/ != messy /ˈmɛsi/  gon gang != bua bai 
+through /θru/ != catch /kæʧ/ nem != bat lay
+

@@ -1,0 +1,93 @@
+/etˈsedəra/
+
+What coding languages are you comfortable with?
+I have worked with 7 coding languages: Java, Spring, JavaScript, Jquery, Angular 6, CSS and HTML. I am also a quick learner and am passionate about coding. I love java cuz Java is open source and free. There is many document about it. I learn and research it easily. It’s because of my desire to learn that I was able to complete the project successfully. The landing page went up ahead of the deadline.
+
+How do you keep your IT skills current?
+I always read the documents about the technologies.
+when I work, I try to work hard. 
+It helps me increment my knowleadge.
+I always support to the other about the technologies, how to fix bug, how to do the task...
+If I have problem with my technical or any problem, I'll focus to work it. If I can't do it, I'll ask my leader.
+My sumary is exchange with other in my team, read the documents, especially I work hard everyday.
+
+What interests you about this position?
+After I readed your JD of the Java's job, I was interest I think I adpat with the job.
+With more than 5 years of the java's experience, I have developed several the projects successfully.
+I'm confident that I feel that your company would greatly benefit from my skill and I would be a valuable member of the java team.
+
+Do you prefer to manage people or ideas or technical?
+I prefer the managing people
+Regarding managing people While I love technology and can spend all day on coding and solving technical issues, 
+I really enjoy managing people. I like the challenge it presents and motivating people to perform at their best.
+I achieve this through coaching and mentoring as well as assigning the right person to the right task. I also enjoy collaborating with an innovative team of bright professionals. I found that you can learn from everybody you meet, and I am always looking for opportunities to both learn and teach.
+Working with people is interesting due to the dynamics of interpersonal relationships.
+At times the technical issues can be challenging and difficult to resolve. 
+Knowing that there is a solution encourages me to work hard using my existing skills or learning new ones. 
+Creating effective communications and technology structure is from everyone in the team helpful.
+
+Have you worked with software vendors and how do you handle vendor relations?
+i'm willing to support the other about the technical, the document, the business.
+After I'm completed the function, I'll demo it with them.
+If they have any problem, I'll explain it.
+
+How do you ensure quality in your deliverables?
+When I'm reading the bug, if I have a problem with the ticket, I'll message the tester that created this ticket.
+After I fixed the bug in my local, I'll test it clearly and then I push the PR and add a few the colleage to review the PR.
+After the bug was deployed in the UI in the QA, I'll test it if I'm free.
+When preparing for deployment, I start with the planning strategies. The planing includes the PRs that I fixed and worked done.
+I'll input this to the excel. After I'm done, I'll inform the team lead in the group chat. He'll deploy all the PRs in the excel file. I don't allow to push the code until deploying completed
+
+How do you feel about Agile? Explain its benefits and drawbacks?
+I have less knowledge about it
+this is the process of managing the team better, easily, and clearly.
+
+What are you weakness and strength?
+strength:Accuracy
+Brevity
+Clarity
+Creative
+Determinate
+Disciplined
+Dedicated
+Enthusiastic
+Flexible
+Honest
+Hard-working
+Negotiation Skills
+Organization Skills
+Patient
+Trustworthy
+Time-management
+Team player
+Quick learner
+Versatile
+Optimistic
+Judiciousness
+Excellent Communication Multitasking
+Expressive
+Respectful
+Innovative
+Attentive
+Empathetic
+weakness: When I complete the tasks before the deadlines I stress myself in the process.
+ I'm a shy person when I join a new environment. 
+ 
+What is your approach to handling multiple deadlines?
+I'll try to code faster if I can.
+I'll work overtime if the work has more
+Maybe I'll assign the ticket with the other developer if the one is at leisure.
+
+What elements are necessary for a successful team and why? 
+https://www.indeed.com/career-advice/career-development/success-teamwork
+
+http://neulink.edu.vn/cau-hoi-phong-van-tieng-anh-nghe-nganh-cong-nghe-thong-tin-pho-bien/817/187.html
+
+What coding languages are you comfortable with?
+How do you keep your IT skills current?
+What interests you about this position?
+Do you prefer to manage people or ideas or technical?
+Have you worked with software vendors and how do you handle vendor relations?
+How do you ensure quality in your deliverables?
+What is your approach to handling multiple deadlines?
+What are you weakness and strength?
